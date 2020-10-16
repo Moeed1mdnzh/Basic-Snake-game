@@ -45,7 +45,6 @@ class main:
 			else:
 				self.NotgameOver= True
 				if none != None:
-					print("hello")
 					gameOver().playerChoice()
 		for s in Board.returnSnake(self.ysnake).items():
 			if s[1]:
@@ -53,7 +52,6 @@ class main:
 			else:
 				self.NotgameOver = True
 				if none != None:
-					print("hello")
 					gameOver().playerChoice()
 	def snake_in_food(self,xs,ys):
 		if True:
