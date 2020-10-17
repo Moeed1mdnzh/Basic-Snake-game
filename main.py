@@ -116,6 +116,7 @@ class gameOver(Game):
 				pygame.quit()
 				quit()
 			elif self.key[self.r]:
+				frontend.c_score = '0'
 				Game().gameLoop()
 			for event in pygame.event.get():
 				if event.type == pygame.QUIT:
